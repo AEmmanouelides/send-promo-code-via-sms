@@ -8,3 +8,28 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+input[type='checkbox'] {  margin-right: 10px; }
+
+input[type=text] {
+  padding: 12px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+button[type=submit]:hover {
+  background-color: lightslategray;
+}
