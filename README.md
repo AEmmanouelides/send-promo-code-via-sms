@@ -52,7 +52,9 @@ However, to stop abuse we want to provide the bonus code only in exchange for an
 The task is to create a REST API endpoint that receives a phone number and sends an SMS.
 
 The endpoint should be available at ‘/api/sms-promotion’. 
+
 The request body will consist of a single field, “phone”. 
+
 You should then send an SMS to the provided phone number, with one of two messages:
 - If the current server time is in the morning, the message should read “Good morning! Your promocode is AM123”. 
 - If the current server time is in the afternoon or later, the message should read “Hello! Your promocode is PM456”.
@@ -69,4 +71,5 @@ Your task is to create a simple form for sending the above SMS code, collecting 
 However, our legal team has insisted that before the form is submitted, we have two checkboxes which must be checked. 
 - “I am over 18” and 
 - “I accept the terms and conditions”. 
+
 There is no need for any styling.
