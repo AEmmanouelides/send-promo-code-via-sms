@@ -39,6 +39,8 @@ Run both applications together with the command:
 
 The application will run on port 3000 and the server on port 3001.
 
+`Screenshots` of the running App can be found at `/screenshots`
+
 ## Requirements 
 
 Backend Scenario
@@ -52,8 +54,8 @@ The task is to create a REST API endpoint that receives a phone number and sends
 The endpoint should be available at ‘/api/sms-promotion’. 
 The request body will consist of a single field, “phone”. 
 You should then send an SMS to the provided phone number, with one of two messages:
-If the current server time is in the morning, the message should read “Good morning! Your promocode is AM123”. 
-If the current server time is in the afternoon or later, the message should read “Hello! Your promocode is PM456”.
+- If the current server time is in the morning, the message should read “Good morning! Your promocode is AM123”. 
+- If the current server time is in the afternoon or later, the message should read “Hello! Your promocode is PM456”.
 
 
 The API should return a suitable HTTP response, including handling errors appropriately.
