@@ -1,7 +1,9 @@
 ## Send Promotional Code via SMS - Coding Challenge 
 
 This project was generated initially with the [Create React App] - Getting Started tool. (https://github.com/facebookincubator/create-react-app). 
+
 Then an Express server was added in the `server` directory. 
+
 The server is proxied via the `proxy` key in `package.json`.
 
 ## About the App
